@@ -1,0 +1,57 @@
+ <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="20dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/border">
+
+        <ImageView
+            android:id="@+id/button1"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:text="Button 1"
+            android:src="@drawable/ic_tap"
+            android:textColor="@android:color/black"
+            android:padding="10dp"
+            android:gravity="center"/>
+
+        <ImageView
+            android:id="@+id/button2"
+            android:layout_width="100dp"
+            android:layout_height="80dp"
+            android:text="Button 2"
+            android:visibility="invisible"
+
+            android:src="@drawable/ic_tap"
+
+            android:textColor="@android:color/black"
+            android:paddingBottom="30dp"
+            android:gravity="center"/>
+
+        <ImageView
+            android:id="@+id/button3"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:text="Button 3"
+            android:src="@drawable/voice"
+            android:padding="10dp"
+
+            android:textColor="@android:color/black"
+            android:gravity="center"/>
+
+    </LinearLayout>
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="90dp"
+        android:text="Button 2"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="18dp"
+
+        android:src="@drawable/ic_scan"
+
+        android:textColor="@android:color/black"
+        android:gravity="center"/>
